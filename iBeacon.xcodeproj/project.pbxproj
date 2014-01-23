@@ -21,6 +21,7 @@
 		3E3429BD1890B305004C262A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E34299F1890B305004C262A /* UIKit.framework */; };
 		3E3429C51890B305004C262A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E3429C31890B305004C262A /* InfoPlist.strings */; };
 		3E3429C71890B305004C262A /* iBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3429C61890B305004C262A /* iBeaconTests.m */; };
+		3E3429D11890C949004C262A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3429D01890C949004C262A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3E3429C21890B305004C262A /* iBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconTests-Info.plist"; sourceTree = "<group>"; };
 		3E3429C41890B305004C262A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E3429C61890B305004C262A /* iBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeaconTests.m; sourceTree = "<group>"; };
+		3E3429D01890C949004C262A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3429D11890C949004C262A /* CoreLocation.framework in Frameworks */,
 				3E34299E1890B305004C262A /* CoreGraphics.framework in Frameworks */,
 				3E3429A01890B305004C262A /* UIKit.framework in Frameworks */,
 				3E34299C1890B305004C262A /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		3E34299A1890B305004C262A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E3429D01890C949004C262A /* CoreLocation.framework */,
 				3E34299B1890B305004C262A /* Foundation.framework */,
 				3E34299D1890B305004C262A /* CoreGraphics.framework */,
 				3E34299F1890B305004C262A /* UIKit.framework */,
@@ -460,6 +464,7 @@
 				3E3429CC1890B305004C262A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3429CD1890B305004C262A /* Build configuration list for PBXNativeTarget "iBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				3E3429CF1890B305004C262A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
